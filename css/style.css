@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6ec; /* cream */
+  margin: 0;
+}
+
+nav {
+  background-color: #1e3a8a; /* biru */
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #3b82f6;
+}
