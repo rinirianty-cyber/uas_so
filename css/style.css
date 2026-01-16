@@ -1,35 +1,70 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fdf6ec; /* cream */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fdf6ec; /* cream */
+  color: #444;
+}
+
+/* NAVBAR */
 nav {
   background-color: #1e3a8a; /* biru */
   padding: 15px;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
   color: white;
-  margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
+  margin: 0 15px;
+  font-weight: 600;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* CONTAINER / CARD */
 .container {
-  background-color: white;
   max-width: 800px;
-  margin: 40px auto;
+  margin: 60px auto;
+  background: white;
   padding: 40px;
-  border-radius: 15px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
+/* FOTO */
 .profile {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   border: 5px solid #3b82f6;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* JUDUL */
+h1, h2 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+/* LIST */
+ul {
+  list-style: none;
+}
+
+ul li {
+  background: #f1f5f9;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
 }
